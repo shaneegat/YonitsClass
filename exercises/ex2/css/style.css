@@ -1,0 +1,289 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none; /*gets rid of line under links*/
+}
+
+h1{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header, main, footer nav, aside,section{
+    display: block;
+}
+
+
+header, nav, section:first-child, footer{
+    background-color: #ED4C5C;
+}
+
+header{
+    padding-top: 59px;
+}
+
+#logo {
+    background-image: url("../images/flower.png");
+    color:white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 51.45px;
+}
+
+
+#logo span{
+    color:#fff;
+    font-size: 18px;
+    margin-left:-9.9px;
+    padding-bottom: 59px;
+    text-transform: uppercase; 
+  
+}
+
+nav{
+    padding-top: 48px;
+    font-style: normal;
+    font-weight: 445px;
+    font-size: 14px;
+    
+}
+
+a{
+    color: #fff;
+    padding-left: 50px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+section:first-child{
+    padding-left: 89px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+img.main{
+    border-radius: 15px;
+}
+
+a.button{
+    background-image: url("../images/button.png");
+    margin-left: -48px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 6px;
+    
+}
+a.button span{ 
+    color:#ED4C5C;
+}
+
+h1.middle{
+    padding-top: 56px;
+    padding-left: 50px;
+}
+p.pLong{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+a.middle{
+    color: #ED4C5C;
+    text-transform: capitalize;  
+}
+
+section.pics{
+    padding-top: 40.72px;
+    padding-left: 50px;
+    padding-bottom: 63px;
+}
+
+img.pic1{
+    border-radius: 8px; 
+}
+a.button1{
+    background-image: url("../images/Rectangle.png");
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left:-384px;
+}
+a.button1 span
+{
+    color:#ED4C5C;
+    text-transform: capitalize; 
+    text-align: center;
+    font-weight: bold;
+}
+
+img.pic2{
+    border-radius: 8px;
+    margin-left: 30px;
+}
+a.button2{
+    background-image: url("../images/Rectangle.png");
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left:-384px;
+}
+a.button2 span
+{
+    color:#ED4C5C;
+    text-transform: capitalize; 
+    text-align: center;
+    font-weight: bold;
+}
+
+img.pic3{
+    border-radius: 8px;
+    margin-left: 30px;
+}
+a.button3{
+    background-image: url("../images/Rectangle.png");
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left:-384px;
+}
+a.button3 span
+{
+    color:#ED4C5C;
+    text-transform: capitalize; 
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+section:last-child{
+    background-color: #F5F4F4;
+    padding-bottom: 280px;
+    padding-top: 57px;
+    padding-left: 50px;
+}
+
+
+img.rectanglebottom1
+{
+    margin-top: 50px;
+}
+
+img.paint{
+    width: 80px;
+    height:80px;
+    margin-left: -180px;
+    margin-bottom:100px;
+}
+
+a.painttext{
+    color: black;
+    text-transform:capitalize; 
+    margin-left:-140px;
+}
+
+img.rectanglebottom2{
+    margin-left: 110px;
+}
+
+img.cook{
+    margin-left: -180px;
+    margin-bottom:100px;
+    width: 80px;
+    height:80px;
+}
+a.cooktext{
+    color: black;
+    text-transform:capitalize; 
+    margin-left: -140px;
+    margin-bottom: 25px;
+}
+
+img.rectanglebottom3{
+    margin-left: 95px; 
+    
+}
+
+a.hiketext{
+    color: black;
+    text-transform:capitalize; 
+    margin-left: -170px;
+    margin-bottom: 25px;
+
+}
+img.hike{
+    margin-left: -152px;
+    margin-bottom:100px;
+    width: 80px;
+    height:80px;
+}
+
+a.runtext{
+    color: black;
+    text-transform:capitalize; 
+    margin-left: -140px;
+    margin-bottom: 25px;
+
+}
+img.rectanglebottom4{
+    margin-left: 80px; 
+}
+
+img.run{
+    margin-left: -170px;
+    margin-bottom:100px;
+    width: 80px;
+    height:80px;
+    
+}
+
+
+img.youtube{
+    padding-top: 29px;
+    padding-left: 50px;
+    height: 30px;  
+    width: 30px;
+
+}
+
+img.pintrest{
+    margin-left: 30px;
+    height: 30px;  
+    width: 30px;
+
+}
+
+img.facebook{
+    margin-left: 30px;
+    
+    height: 30px;  
+    width: 30px;
+}
+
+h2{
+    color: #fff;
+    margin-left: 280px;
+    margin-top: -30px;
+    padding-bottom: 23px;
+    font-weight: 300;
+        
+}
+
+
+
+
+
+
+ 
