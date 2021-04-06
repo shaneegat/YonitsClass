@@ -176,77 +176,78 @@ section:last-child{
 }
 
 
-img.rectanglebottom1
-{
-    margin-top: 50px;
-}
 
 img.paint{
+
     width: 80px;
     height:80px;
-    margin-left: -180px;
-    margin-bottom:100px;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: -40px;
 }
 
 a.painttext{
     color: black;
     text-transform:capitalize; 
-    margin-left:-140px;
+    margin-left:-200px;
+    
 }
 
-img.rectanglebottom2{
-    margin-left: 110px;
-}
 
 img.cook{
-    margin-left: -180px;
-    margin-bottom:100px;
     width: 80px;
     height:80px;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: -40px;
+    margin-left: 60px;
 }
 a.cooktext{
     color: black;
     text-transform:capitalize; 
-    margin-left: -140px;
+    margin-left: -220px;
     margin-bottom: 25px;
 }
 
-img.rectanglebottom3{
-    margin-left: 95px; 
-    
-}
 
 a.hiketext{
     color: black;
     text-transform:capitalize; 
-    margin-left: -170px;
+    margin-left: -230px;
     margin-bottom: 25px;
 
 }
 img.hike{
-    margin-left: -152px;
-    margin-bottom:100px;
     width: 80px;
     height:80px;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: -40px;
+    margin-left: 60px;
+
 }
 
 a.runtext{
     color: black;
     text-transform:capitalize; 
-    margin-left: -140px;
+    margin-left: -22 0px;
     margin-bottom: 25px;
 
 }
-img.rectanglebottom4{
-    margin-left: 80px; 
-}
+
 
 img.run{
-    margin-left: -170px;
-    margin-bottom:100px;
     width: 80px;
     height:80px;
-    
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 10px; 
+    margin-bottom: -40px; 
+    margin-left: 60px;
 }
 
 
