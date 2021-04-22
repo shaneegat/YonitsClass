@@ -7,7 +7,6 @@ a{
     text-decoration: none; 
 }
 
-
 header, main, footer nav, aside,section{
     display: block;
 }
@@ -32,44 +31,57 @@ header{
     margin: 0 auto;
 }
 
+section.boxes > section{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(145, 45, 50);
+    margin: 17px;
+}
+
+/* Navigation********************************************************************/
+.selected{
+    background-color:rgb(122, 123, 124);
+}
+
 nav{
     background-color: black;
 }
 
-ul{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    list-style-type: none;
-
-}
-
-section.boxes > section{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(165, 83, 83);
-    margin: 17px;
-}
-
-.selected{
-    background-color:rgb(100, 128, 151);
-}
-
-.nav1{
+.navCentered{
     height: 60px;
 }
 
-.nav1 > ul{
-  
-    position: relative;
-    right: 101px; 
+.navCentered > ul{
     display: flex;
-    justify-content: center;      
+    justify-content: center; 
+}
+
+.nav1 > ul{ 
+    position: relative;
+    right: 106px;      
+}
+
+li{  
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: rgb(89, 66, 112);
 }
 
 .nav1 > ul > li{
     padding:10px 85px;
-    margin-top: 9px;;
+    margin-top: 9px;
+}
+
+.nav3 > ul  >li{
+    padding:19px 83px;
+}
+
+ul > li > a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 main{
@@ -113,7 +125,7 @@ aside{
 aside > section{
     height: 59px;
     width: 148px;
-    background-color: rgb(165, 83, 83);
+    background-color:rgb(127, 112, 138);
     position: absolute;
     right: 15px;
     top:200px;
@@ -151,7 +163,7 @@ section.first{
 }
 
 section.squares > section{  
-    background-color:darkgreen; 
+    background-color:rgb(36, 100, 65); 
 }
 
 section.squares{
@@ -172,7 +184,7 @@ section.second{
 
 section.box{
     width: 270px;
-    background-color:darkgreen;
+    background-color:rgb(36, 100, 65);
     position: absolute;
 }
 
@@ -201,6 +213,48 @@ section.box4{
     top: 300px; 
 }
 
-.footer2{
+.footerFixed{
     position: fixed;  
+}
+
+/*********************************************/
+#main{  
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.square{
+    width:  333px;
+    height: 348px;
+}
+
+.myBackground{
+    background-image: url(../images/bunny.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.star{
+    position: absolute;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.plus{
+    position: absolute;
+    top: 115px;
+    left: 100px;
+    
+}
+
+
+@media only screen and(max_width:666px){
+    
+    .nav3 > ul  >li{
+        padding:19px 75px;
+    } 
+   
+  
 }

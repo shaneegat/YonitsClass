@@ -9,23 +9,38 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <linf href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+        <script src = "js/scripts.js"></script>
+      
     </head>
 
     <body>
-        <header>
-            <a href="#" id="logo"></a>
-        </header>
         <div id = "wrapper">
+            <header>
+                <a href="index.html" id="logo"></a>
+            </header>
 
+            <nav class ="navCentered nav3">
+                <ul>
+                    <li><a href = "index.html">Layout 1</a></li>
+                    <li><a href = "layout2.html">Layout 2</a></li>
+                    <li class = "selected"><a href = "#">layout3</a></li>
+                </ul>
+            </nav>
 
+            <main id = main></main>
+            
+            <footer class = "footerFixed"></footer>
 
+        </div>
 
+        <script>
+            (function(){
+                createSquares();
+            })();
 
-
-
-
-
-        </div>   
+        </script>
+     
     </body>
 
 </html>
