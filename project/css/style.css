@@ -1,0 +1,839 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+header,
+nav,
+main,
+aside,
+footer,
+section{
+    display: block;
+}
+
+
+body{
+    width: 100%;
+}
+
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/*---------------------HEADER-------------------------*/
+
+header{
+    width: 100%;
+    height: 141px;
+    background-color:rgba(235, 235, 235, 1);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+#logo2{
+    width: 20%;
+    height: 141px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(235, 235, 235, 1);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+  
+.selected > a{
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*---------------------BREADCRUMB-------------------------*/
+
+#breadcrumb{
+    width:100%;
+    height: 45px;
+    background-color: rgba(235, 235, 235, 1);
+    color: black;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 9px;
+   
+}
+
+
+
+.topic{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+header > .topic > h2{
+    font-size: 39px;
+}
+
+
+/*---------------------MAIN-------------------------*/
+
+
+#main2{
+    width: 80%;
+    background-color: white;
+
+}
+
+
+
+#main2 > nav{
+    width: 100%;
+    height: 45px;
+    display: flex;
+  
+}
+
+
+nav > ul > il > a:hover,
+nav > ol > li > a:hover{
+    color: darkgrey;
+
+}
+
+.topic{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#main2 > .topic{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(68, 68, 68, 1);
+    color: white;
+
+}
+
+
+
+#main2 > .topic > h2{
+    font-size: 24px;
+}
+
+
+.middle{
+    flex-wrap: wrap;
+ 
+ }
+
+ .mainImg{
+     height:auto;
+     width:100%;
+     object-fit:cover;
+ }  
+
+ p{
+     margin: 20px;
+     font-size: 15PX;
+ }
+
+
+
+
+/*---------------------ASIDE-------------------------*/
+
+
+
+aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#ori{
+    height: 350px;
+    width: 100%;
+    background-color: rgba(235, 235, 235, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#ori > h6{
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#userPhoto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.buttonSize{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.accordion-item_trigger{
+    padding: 15px;
+    display: flex;
+    background-color: rgba(235, 235, 235, 1);
+    color: black;
+    padding-left: 50px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.last{
+    height: 100vw;
+}
+
+
+.cont{
+
+    padding: 15px;
+    border-bottom: 1px solid  rgb(187, 187, 187);
+    padding-left: 50px;
+    
+}
+
+
+.material-icons.chevron{
+    display: flex;
+    justify-content: end;
+}
+
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+
+/*----------------------DISPLAY:NONE--------------------------*/
+
+
+
+
+.hamburder{
+    display: none;
+}
+
+
+#userSideNav{
+    display: none;
+}
+
+.selectionVehicle{
+    display: none;
+}
+
+main > nav > ul > il > .navMobile{
+    display: none;
+}
+
+.accordion-item_content{
+    border-top: none;
+    display: none;
+}
+
+#mySidenav{
+    display: none;
+}
+
+.logoMini{
+    display: none;
+}
+
+
+
+
+
+/*---------------------CHANGES IN EVERY PAGE-------------------------*/
+
+
+
+.table{
+    background-color: white;
+    width: 90%;
+    margin: 20px 50px;
+   
+}
+
+
+table,
+thead,
+tr,
+tbody,
+th,
+td{
+  text-align: center;
+  
+}
+
+
+.bottomSection{
+    width: 100%;
+    height: 105px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+
+
+
+
+/*---------------------MOBILE-------------------------*/
+
+
+
+@media screen and (max-width: 767px) { 
+
+    
+
+    #logo2{
+        display: none;
+    }
+
+    aside{
+        display: none;
+    }
+
+    header > .topic > h2{
+        display: none;
+    }
+
+    #breadcrumb{
+        display: none;
+  
+    }
+
+    main > nav > ul > il > .navDesktop{
+        display: none;
+    }
+
+    .bottomSection{
+        display: none;
+    }
+
+
+    /*---------------------HEADER-------------------------*/
+    
+    
+    header > .topic{
+        
+        display: flex;
+        justify-content: left;
+    }
+
+
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        height: 100px;
+       flex-direction: row;
+        
+    }
+    
+    .logoMini{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position:relative;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+           
+    }
+
+
+    /*---------------------MAIN-------------------------*/
+
+    body{
+        background-color: rgb(228, 228, 228);
+
+    }
+
+    
+    #mainSide{
+        position: absolute;
+    }
+
+
+    main{
+
+        width: 100%;
+        height: 100%;
+        background-color: rgb(228, 228, 228);
+
+    }
+    
+    main > .topic{
+        width: 100%;
+        height: 40px;
+        background-color: rgba(68, 68, 68, 1);
+        color: white;
+    
+    }
+
+
+
+    main > nav {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    main > nav > ul {
+        width: 100%;
+        background-color: rgba(68, 68, 68, 1);
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+
+    ul{
+        padding-left: 0px;
+    }
+
+    main > nav > ul > il > a {
+        color: white;
+        display: flex;
+        justify-content: start;
+        margin-top: 7px;
+
+    }
+
+    
+    main > nav > ul > il > .navMobile{
+        display:block;
+
+    }
+
+    .material-icons.md-30 { 
+        font-size: 30px; 
+    }
+
+    .material-icons.md-45{
+        font-size: 45px;
+    }
+
+    main > .topic > h2{
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+
+    
+   /*-----------------------------HAMBURGER-----------------------------*/
+
+
+    .hamburder{
+        margin-left: 25px;
+        display: flex;
+        
+    }
+    
+    #mySidenav{
+        display: block;
+    }
+
+
+    #userSideNav{
+        display: flex;
+        background-color: rgba(68, 68, 68, 1);
+        color: azure;
+        justify-content:space-around;
+       
+    }
+
+    
+    #userPhoto{
+        margin: 10px;
+        margin-right: 0;
+    }
+
+    .userSideNavInfo{
+        margin: 18px;
+        margin-left: 0;
+        margin-top: 27px;
+    }
+
+    .userSideNavInfo > h6{
+        font-size: 23px;
+    }
+
+    .userSideNavInfo > h5{
+        font-size: 17px;
+    }
+
+    
+    .selectionVehicle{
+        display: flex;
+        background-color: white;
+        font-size: 10px;
+        height: 130px;
+        align-items: center;
+        padding-left: 6px;
+
+    }
+
+
+
+    .selectionVehicle > button > a{
+        font-size: 11px;
+        color: rgb(124, 124, 124);
+    }
+
+
+    .btn-secondary {
+        background-color:rgba(68, 68, 68, 1);
+        border-color: rgba(68, 68, 68, 1);
+    }
+
+
+    .btn.btn-secondary.btn-sm > a {
+        color: rgb(231, 231, 231);
+        
+    }
+
+
+    .btn-light {
+        background-color: white;
+        border-color: white;
+    }
+    
+
+    .material-icons.md-40{
+        font-size: 40px;
+    }
+
+
+    
+
+    .sidenav > .logoMini{
+        margin-top: 80px;
+    }
+
+    
+
+
+ 
+
+
+/*---------------------CHANGES IN EVERY PAGE-------------------------*/
+    
+
+    table{
+      
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+    }
+
+
+    .table{
+        background-color: rgb(228, 228, 228);
+        width: 100%;
+        height: 100%;
+        margin: 90px 0;
+   
+    }
+
+    
+
+    .table-responsive-md > table > thead{
+        background-color: rgb(228, 228, 228);
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .table-responsive-md > table > thead > tr > th{
+    
+        padding: 20px 30px;
+    }
+
+    .table-responsive-md > table > tbody > tr > td{
+    
+        padding: 20px 40px;
+    }
+
+
+   
+    tbody, td, tfoot, th, thead, tr {
+        border-color: rgb(114, 114, 114);
+        border-style: solid;
+        border-width: inherit;
+       
+    }
+
+
+    /* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: rgb(228, 228, 228);
+    overflow-x: hidden;
+    transition: 0.2s;
+}
+
+/* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 8px;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.2s;
+    }
+
+
+/* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+      right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+    }
+
+}
+
+/*************************entrance***********************/
+
+#wrapper{
+    width: auto;
+    height: auto;
+    margin:0px auto;
+    background-color: #929292;
+    justify-content: center;   
+}
+
+.body1{
+    height: 100%;
+    background-color: #929292 !important;
+}
+
+h1, h4, h5{
+    color: white;
+}
+
+#logo{
+    background-image: url("../images/logo.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 140px;
+    margin: 0px auto;
+}
+
+h1{
+    padding-top: 100px;
+    margin: 0 auto;
+
+}
+
+.center{
+    display: block;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+    height: 500px;
+
+}
+
+#users{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.user{
+    position: relative; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: 40px;
+}
+
+.car{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 164px;
+    height: 164px;
+    margin: 0 auto;   
+}
+
+.car:hover  {
+    opacity: 0.3;
+  }
+
+.car0{
+    background-image: url("../images/husbandsCar.png");
+}
+
+.car1{
+    background-image: url("../images/favoriteCar.png");
+}
+
+.car2{
+    background-image: url("../images/workCar.png");
+}
+
+.part2{
+    margin-bottom: 50px;
+}
+
+.bi{
+    margin-top: 70px;
+    margin-bottom: 70px;;
+}
+
+.bi:hover  {
+    opacity: 0.3;
+}
+
+
+  /************************Form***********************/
+
+  .body{
+    background-color: #EBEBEB;
+
+  }
+  
+  .container{ 
+    background-color: #EBEBEB;
+
+  }
+
+  .line-space{
+     margin-bottom: 40px;
+     
+  }
+
+  .space{
+    margin-bottom: 20px;
+  }
+
+  form > h5, form > h1{
+    color: black;
+  }
+
+  form > h1{
+      margin-bottom: 70px;
+  }
+
+  .bspace{
+    margin-bottom: 10px;
+    margin-top: 70px;
+  }
+
+  .terms{
+    margin-bottom: 50px;
+    margin-left: -10px;
+  }
+
+  .btnn{
+    margin-bottom: 50px;
+    width: 150px;
+  }
+
+ 
+  @media only screen and (max-width: 810px){
+
+    #logo{
+        background-image: url("../images/logo.png");
+        width: 120px;
+        height: 100px;
+    }
+
+    .user,.icon{
+        width: 48%;
+    }
+
+    .car{
+        width: 100%;
+        height: 100px;
+    }
+
+    h1{
+        padding-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 470px){
+      .user{
+          font-size: 13px;
+      }
+  }
