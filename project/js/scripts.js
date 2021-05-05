@@ -55,11 +55,6 @@ function title(){
 
 
 
-
-
-
-
-
 $(document).ready(function(){
     $('.accordion-item_trigger').click(function(){
         $(this).next('.accordion-item_content').slideToggle(200);
@@ -73,10 +68,13 @@ $(document).ready(function(){
 function openNav() {
     document.getElementById("mySidenav").style.width = "380px";
     document.getElementById("mainSide").style.marginLeft = "380px";
+  
+      
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mainSide").style.marginLeft = "0px";
    
-    document.body.style.backgroundColor = "white";
+    
 }
